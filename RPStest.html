@@ -3,9 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <title>Page Title</title>
-  <script src="RPSfunct.js"></script>
+  <link rel="stylesheet" href="RPSstyle.css">
+  <script src="RPSfunct.js" defer></script>
 </head>
 <body>
-  An RPS Game
+  <div class="trt">An RPS Game</div>
+  <div class="header">
+    <div class="results"> --
+    </div>
+
+    <div class="score">
+      <div class="player">
+        <p>Player</p>
+        <div class="pla">0</div>
+      </div>
+
+      <div class="compter">
+        <p>Computer</p>
+        <div class="com">0</div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <button id="ruk">Rock</button>
+    <button id="pap">Paper</button>
+    <button id ="scis">Scissors</button>
+  </div>
+  <div class="tieText"> -- </div>
+  <div class="reset"></div>
 </body>
 </html>

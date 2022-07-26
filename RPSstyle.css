@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+    background-color: bisque;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+button {
+    background-color: aqua;
+    color: white;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.trt {
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+
+p {
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.results {
+    margin: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.player, .compter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border: 2px solid black;
+}
+
+.pla, .com {
+    margin-top: 20px;
+    font-size: 120px;
+    margin-bottom: 40px;
+}
+
+.tieText {
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+}
